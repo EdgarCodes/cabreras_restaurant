@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: "Mayan_font";
+  src: url("../../Fonts/Mayan.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12vh;
+  min-height: 80px;
+}
+
+.Header-scroll {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.603);
+  animation: headerShow 1s;
+  z-index: 50;
+}
+
+.Header-image-container-scroll {
+  margin: .5rem 0;
+  padding: 0 3rem;
+  height: 80px;
+}
+
+.Header-image-container-scroll img {
+  max-height: 100%;
+}
+
+.Header-nav {
+  z-index: 10;
+  display: flex;
+  margin: 0 2rem;
+}
+
+.Header-nav a {
+  cursor: pointer;
+  color: white;
+  letter-spacing: .5px;
+  font-size: 20px;
+  margin: 0 1.75rem;
+  margin-top: .5rem;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.Header-nav a .underline {
+  opacity: 0;
+  margin-top: .25rem;
+  width: 100%;
+  height: 2px;
+}
+
+.Header-nav a .right {
+  border-bottom-left-radius: 10px;
+}
+
+.Header-nav a .left {
+  border-bottom-right-radius: 10px;
+}
+
+.Header-nav a:hover .underline {
+  opacity: 1;
+  animation: textShow .3s;
+  background-color: #fdb877;
+}
+
+.Header-image-container {
+  text-align: center;
+  margin: .5rem 0;
+  z-index: 10;
+  padding: 0 3rem;
+  height: 11vh;
+  min-height: 75px;
+}
+
+.Header-image-container .Header-icon {
+  max-height: 100%;
+}
+
+@keyframes headerShow {
+  0% {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes textShow {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  25% {
+    opacity: 1;
+    transform: scale(0.25);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+  75% {
+    opacity: 1;
+    transform: scale(0.75);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #fdb877;
+  }
+}
+
+.Landing {
+  position: relative;
+  width: 100%;
+  height: 1400px;
+  max-height: 90vh;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  background-image: url("../../Images/landing_1.jpg");
+  font-family: 'Oswald', sans-serif;
+}
+
+.Landing-info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80%;
+  justify-content: space-evenly;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Landing-text {
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.Landing-text h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.Landing-text h2 {
+  font-family: 'Mayan', "Mayan_font";
+  font-size: 150px;
+  font-weight: 100;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.671);
+}
+
+.Landing-text p {
+  font-size: 25px;
+}
+
+.Landing-Icons {
+  font-size: 30px;
+}
+
+.Landing-Icons i {
+  margin: 0 1rem;
+}
+
+.Landing-About {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Landing-About h2 {
+  font-weight: 300;
+  padding: 0 1rem;
+}
+
+.Landing-About h2 .about-icon {
+  padding-right: .5rem;
+}
+
+.Landing-divider {
+  background-color: #fa7d2a;
+  height: 2vh;
+}
+
+.Landing-button {
+  cursor: pointer;
+  color: white;
+  background: none;
+  padding: 1rem;
+  outline: none;
+  border: 2.5px solid white;
+  font-size: 15px;
+}
+
+.Landing-button:hover {
+  transform: scale(0.98) translate(-50%, -45%);
+}
+
+.About {
+  height: 2000px;
+}
+/*# sourceMappingURL=Styles.css.map */
