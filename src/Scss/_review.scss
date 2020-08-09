@@ -1,0 +1,129 @@
+.Review
+{
+    width: 100%;
+    height: 400px;
+    background-image: url("../../Images/review-background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.Review-img-container
+{
+    padding-top: 2rem;
+    text-align: center;
+    height: 125px;
+    img
+    {
+        max-height: 100%;
+    }
+}
+
+.Review-content
+{
+    color: white;
+    font-family: "Roboto", "Sans-serif";
+    text-align: center;
+
+    padding-top: 3rem;
+    h1
+    {
+        font-weight: 300;
+        font-size: 25px;
+    }
+
+    h2
+    {
+        font-weight: 400;
+        padding-top: 3rem;
+    }
+}
+
+.Review-next
+{
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0 1rem;
+    outline: none;
+    i
+    {
+        color: white;
+        font-size: 30px;
+    }
+}
+
+.Review-next:hover
+{
+    transform: scale(.95);
+    i{
+        color: rgba(255, 255, 255, 0.315);
+    }
+}
+
+@media screen and (max-width: 900px) 
+{
+    .Review
+    {
+        height: 350px;
+    }
+    .Review-img-container
+    {
+        height: 100px;
+    }
+
+    .Review-content
+    {
+        h1
+        {
+            font-size:  25px;
+        }
+
+        h2
+        {
+            font-size:  20px;
+            padding-top: 2rem;
+        }
+    }
+
+    .Review-next
+    {
+        i
+        {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .Review-img-container
+    {
+        height: 80px;
+    }
+
+    .Review-content
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1
+        {
+            width: 90%;
+            font-size:  20px;
+        }
+
+        h2
+        {
+            font-size:  18px;
+            padding-top: 2rem;
+        }
+    }
+
+    .Review-next
+    {
+        i
+        {
+            font-size: 20px;
+        }
+    }
+}

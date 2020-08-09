@@ -12,5 +12,14 @@
     box-sizing: border-box;
 }
 
+body
+{
+    overflow-x: hidden;
+}
+
 @import "header";
 @import "Homepage";
+@import "map";
+@import "Paragraph";
+@import "review";
+@import "footer";
