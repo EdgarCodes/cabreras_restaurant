@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d45fd080.chunk.css",
+    "main.js": "/static/js/main.991d57a0.chunk.js",
+    "main.js.map": "/static/js/main.991d57a0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.deeba89d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.deeba89d.js.map",
+    "static/js/2.2f368f7b.chunk.js": "/static/js/2.2f368f7b.chunk.js",
+    "static/js/2.2f368f7b.chunk.js.map": "/static/js/2.2f368f7b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.890b01573c2f5a6b70454310485ba997.js": "/precache-manifest.890b01573c2f5a6b70454310485ba997.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d45fd080.chunk.css.map": "/static/css/main.d45fd080.chunk.css.map",
+    "static/js/2.2f368f7b.chunk.js.LICENSE.txt": "/static/js/2.2f368f7b.chunk.js.LICENSE.txt",
+    "static/media/GrubHub_logo.png": "/static/media/GrubHub_logo.00ad9288.png",
+    "static/media/Styles.css": "/static/media/video_background.fdce4897.jpg",
+    "static/media/authentic-taco-cabreras.jpg": "/static/media/authentic-taco-cabreras.6b3e1ca1.jpg",
+    "static/media/burrito-cabreras.jpg": "/static/media/burrito-cabreras.1877d3a3.jpg",
+    "static/media/c_1.png": "/static/media/c_1.862bc592.png",
+    "static/media/doordash_logo.jpg": "/static/media/doordash_logo.2cd0c7db.jpg",
+    "static/media/enchilada-cabreras.jpg": "/static/media/enchilada-cabreras.e578ac82.jpg",
+    "static/media/google-reviews-logo.png": "/static/media/google-reviews-logo.c01e206d.png",
+    "static/media/yelp_logo.png": "/static/media/yelp_logo.0653b58a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.deeba89d.js",
+    "static/js/2.2f368f7b.chunk.js",
+    "static/css/main.d45fd080.chunk.css",
+    "static/js/main.991d57a0.chunk.js"
+  ]
+}
