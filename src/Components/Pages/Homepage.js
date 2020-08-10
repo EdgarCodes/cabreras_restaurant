@@ -1,12 +1,16 @@
 import React from 'react';
-import Header from "../Header";
+
+import Paragraph from "../Paragraph";
+import Review from "../Review";
+import Video from "../Video";
+import Delivery from "../Delivery";
+
+
 
 export default function Homepage() {
     return (
         <div className = "Homepage">
             <div className = "Landing">
-                <Header/>
-
                 <div className = "Landing-info">
                     <div className = "Landing-text">
                         <h1>Welcome To</h1>
@@ -28,13 +32,27 @@ export default function Homepage() {
                     </div>  
 
                     <button className = "Landing-button">View Our Menu!</button>
-                </div>
-                {/* <div className = "Landing-divider"/> */}
-
-                <div className = "About">
-                    </div>
-            
+                </div>            
             </div>
+
+            
+            <div className = "About">
+                <div className = "About-intro">
+                    <Paragraph>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </Paragraph>
+                    <Video/>
+                </div>
+            </div>
+
+            <div className = "Reviews">
+                <Review/>
+            </div>
+            
+            <Delivery/>
             
         </div>
     )

@@ -1,0 +1,42 @@
+.Video
+{
+    width: 50%;
+    background-image: url("../../Images/video_background.jpg");
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Video-container
+{
+    width: 95%;
+    max-width: 900px;
+}
+
+@media screen and (max-width: 1300px) 
+{
+    .Video
+    {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 700px) 
+{
+    .Video
+    {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) 
+{
+    .Video
+    {
+        height: 300px;
+    }
+}

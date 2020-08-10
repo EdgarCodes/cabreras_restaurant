@@ -110,11 +110,6 @@
     align-items: center;
 }
 
-.Reviews
-{
-    height: 100%;
-}
-
 @media screen and (max-width: 1500px) {
     .Landing
     {
@@ -148,6 +143,11 @@
     }
 
     .About-intro
+    {
+        flex-direction: column;
+    }
+
+    .Delivery
     {
         flex-direction: column;
     }

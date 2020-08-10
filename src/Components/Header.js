@@ -1,15 +1,37 @@
 import React, { useRef, useState } from 'react';
 
-import logo from "../Images/new-cabreras-mexican-restaurant-logo.png";
+//Images
+import logo from "../Images/c_1.png";
 
 export default function Header() {
     const header = useRef(null);
     const image = useRef(null);
     const [isOffScreen, setIsOffScreen] = useState(false);
 
+    const [isOpen, setIsOpen] = useState(null);
+    const sideBar = useRef(null);
+
+    const toggleIsOpen = () =>{
+        if(isOpen != null){setIsOpen(!isOpen);}
+        else{setIsOpen(true)}
+    }
+
+    const getIsOpen = () =>{
+        if(isOpen === null)
+        {
+            return "close";
+        }
+        else if(isOpen === true)
+        {
+            return "Header-sidebar";
+        }
+
+        return "Header-sidebar close";
+    }
+
 
     window.onscroll = () =>{
-        if(document.body.scrollTop > 170 || document.documentElement.scrollTop > 170)
+        if(document.body.scrollTop > 95 || document.documentElement.scrollTop > 95)
         {
             setIsOffScreen(true);
         }
@@ -21,23 +43,34 @@ export default function Header() {
     };
 
     return (
-        <div className = {isOffScreen? "Header-scroll": "Header-scroll"} ref = {header}>
+        <div className = {isOffScreen? "Header scroll": "Header"} ref = {header}>
             <nav className = "Header-nav">
-                <a href = "google.com">Home <div className = "underline right"/> </a>
-                <a href = "google.com">Menu <div className = "underline"/></a>
-                <a href = "google.com">Contact Us <div className = "underline left"/></a>
+                <a href = "Home">Home <div className = "underline"/> </a>
+                <a href = "Menu">Menu <div className = "underline"/></a>
+                <a href = "Contact">Contact Us <div className = "underline"/></a>
             </nav>
 
-            <div className = {isOffScreen? "Header-image-container-scroll": "Header-image-container-scroll"}
+            <div className = {isOffScreen? "Header-image-container": "Header-image-container"}
             ref = {image}>
-                <img className = "Header-icon" src = {logo}/>
+                <img className = "Header-icon" src = {logo} alt = "Cabreras Logo"/>
             </div>
 
             <nav className = "Header-nav">
-                <a href = "google.com">Delivery <div className = "underline right"/></a>
-                <a href = "google.com">Reviews <div className = "underline"/></a>
-                <a href = "google.com">About <div className = "underline left"/></a>
+                <a href = "Delivery">Delivery <div className = "underline"/></a>
+                <a href = "Reviews">Reviews <div className = "underline"/></a>
+                <a href = "About">About <div className = "underline"/></a>
             </nav>
+
+            <button className = "Header-drop-down" onClick={toggleIsOpen}>
+                <i className="fas fa-bars"/>
+            </button>
+
+            <div className = {getIsOpen()} ref={sideBar}>
+                <a href = "Delivery"><i className="fas fa-home"></i><div className = "underline"/></a>
+                <a href = "Reviews">Menu<div className = "underline"/></a>
+                <a href = "About">Contact<div className = "underline"/></a>
+                <a href = "Delivery">Delivery <div className = "underline"/></a>
+            </div>
         </div>
     )
 }
