@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d45fd080.chunk.css",
+    "main.css": "/static/css/main.6327e1ab.chunk.css",
     "main.js": "/static/js/main.991d57a0.chunk.js",
     "main.js.map": "/static/js/main.991d57a0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.deeba89d.js",
@@ -8,9 +8,9 @@
     "static/js/2.2f368f7b.chunk.js": "/static/js/2.2f368f7b.chunk.js",
     "static/js/2.2f368f7b.chunk.js.map": "/static/js/2.2f368f7b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.890b01573c2f5a6b70454310485ba997.js": "/precache-manifest.890b01573c2f5a6b70454310485ba997.js",
+    "precache-manifest.90d2c7d6c906b26cb516e6f335e4f08c.js": "/precache-manifest.90d2c7d6c906b26cb516e6f335e4f08c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d45fd080.chunk.css.map": "/static/css/main.d45fd080.chunk.css.map",
+    "static/css/main.6327e1ab.chunk.css.map": "/static/css/main.6327e1ab.chunk.css.map",
     "static/js/2.2f368f7b.chunk.js.LICENSE.txt": "/static/js/2.2f368f7b.chunk.js.LICENSE.txt",
     "static/media/GrubHub_logo.png": "/static/media/GrubHub_logo.00ad9288.png",
     "static/media/Styles.css": "/static/media/video_background.fdce4897.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.deeba89d.js",
     "static/js/2.2f368f7b.chunk.js",
-    "static/css/main.d45fd080.chunk.css",
+    "static/css/main.6327e1ab.chunk.css",
     "static/js/main.991d57a0.chunk.js"
   ]
 }
