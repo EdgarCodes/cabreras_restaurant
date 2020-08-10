@@ -6,9 +6,11 @@ import yelp_logo from "../Images/yelp_logo.png";
 export default function Review() {
     const reviews = 
     [
-        {name: "- Edgar G.", review: `"Great restaurant. Great Food!"`},
-        {name: "- Estevan S.", review: `Real Authentic Mexican Food. Will come again.`},
-        {name: "- Antony G.", review: "Friendly staff, family friendly. Will come again!"}
+        {name: "- Dakoyta G.", review: `"Customer service was super good and the food was super bomb if you're in Bowling Green I would recommend it this place felt like it's straight from Mexico"`},
+        {name: "- Blake B.", review: `"Cabrera's never disappoints! Always really appreciate the staff for always being kind and curious even on their busiest nights! There's not a bad option on the menu."`},
+        {name: "- Susan J.", review: "Great food and great service! Best margaritas in town!"},
+        {name: "- Kelly W.", review: "The best in Bowling Green. We eat at least two times a week. If you have ever been to Mexico. This place is the closest to authentic Mexican food. Try street tacos."},
+        {name: "- Dennis G.", review: "Has to be a best kept secret! Great folks, great food, great prices and great service!"}
     ];
 
     const [current, setCurrent] = useState(0);

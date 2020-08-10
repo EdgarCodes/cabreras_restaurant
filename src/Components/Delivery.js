@@ -9,14 +9,6 @@ import doordash_logo from "../Images/doordash_logo.jpg";
 export default function Delivery() {
     return (
         <div className = "Delivery">
-            {/* <div className="fb-page" 
-            data-href="https://www.facebook.com/pg/CabrerasMexicanRestaurant/photos/?ref=page_internal"
-            data-width="500" 
-            data-height= "650"                	
-            data-tabs = "timeline"
-            data-hide-cover="false"
-            data-show-facepile="false"/>  */}
-            
             <div className = "Delivery-info">
                 <div className = "Delivery-info-container">
                     <div className = "Delivery-info-title">
@@ -25,11 +17,11 @@ export default function Delivery() {
                     </div>
 
                     <div className= "Delivery-info-carryout">
-                        <h3><i className="fas fa-phone"/> TEL: (270) 843-4145</h3>
-                        <h3><i className="fas fa-map-marker-alt"/> 2225 Russellville Rd, Bowling Green, KY 42101</h3>
-                        <h3><i className="far fa-clock"/> Mon-Thur: 11AM-10PM</h3>
-                        <h3><i className="far fa-clock"/> Fri-Sat: 11AM-10:30PM</h3>
-                        <h3><i className="far fa-clock"/> Sun: 11AM- 9:30PM</h3>
+                        <h1><i className="fas fa-phone"/> TEL: (270) 843-4145</h1>
+                        <h1><i className="fas fa-map-marker-alt"/> 2225 Russellville Rd, Bowling Green, KY 42101</h1>
+                        <h1><i className="far fa-clock"/> Mon-Thur: 11AM-10PM</h1>
+                        <h1><i className="far fa-clock"/> Fri-Sat: 11AM-10:30PM</h1>
+                        <h1><i className="far fa-clock"/> Sun: 11AM- 9:30PM</h1>
                     </div>
 
                     <div className = "Delivery-info-options">

@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
-    background-image: url("../../Images/landing_1.jpg");
+    background-image: url("../../Images/contact-background.jpg");
 
     font-family: 'Oswald', sans-serif;
 }
@@ -87,19 +87,28 @@
 
 .Landing-button
 {
+    margin: 1rem auto;
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 175px;
     cursor: pointer;
+    font-size: 18px;
+    font-family: "Oswald", "Sans-serif";
+    border: 2px solid white;
     color: white;
-    background: none;
-    padding: 1rem;
+    background-color: rgba(128, 128, 128, 0);
     outline: none;
-    border: 2.5px solid white;
-    font-size: 15px;
+    padding-top: .25rem;
+
+    transition: background-color .5s, color .5s;
 }
 
 .Landing-button:hover
 {
-    transform: scale(.97);
-    background-color: rgba(255, 166, 0, 0.5);
+    border-color: rgb(255, 106, 52);
+    background-color: rgb(255, 106, 52);
+    color: white;
 }
 
 .About-intro
@@ -189,10 +198,4 @@
         }
     }
 
-    .Landing-button
-    {
-        padding: .75rem;
-        border: 1.5px solid white;
-        font-size: 13px;
-    }
 }

@@ -10,6 +10,7 @@
     "react-dom": "^16.13.1",
     "react-map-gl": "^5.2.7",
     "react-scripts": "3.4.1",
+    "react-scroll": "^1.8.0",
     "react-transition-group": "^4.4.1"
   },
   "scripts": {

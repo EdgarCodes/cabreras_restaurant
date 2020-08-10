@@ -1,0 +1,104 @@
+.Promotional-items
+{
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+.Promotional-gallery-container
+{
+    width: 100%;
+}
+
+.Promotional-gallery
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    img
+    {
+        width: 100%;
+        max-width: 900px;
+        height: 100%;
+    }
+}
+
+.Promotional-description
+{
+    padding: 1rem 0;
+    font-family: "Oswald", "Sans-serif";
+    text-align: center;
+    letter-spacing: .5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1
+    {
+        color: orangered;
+        font-size: 30px;
+        padding-bottom: 1rem;
+        width: 90%;
+    }
+    p
+    {
+        color: grey;
+        font-size: 20px;
+        font-weight: 300;
+        padding-top: .5rem;
+        width: 90%;
+    }
+}
+
+.Promotional-fb-container
+{
+    width: 500px;
+    display: flex;
+}
+
+.Promotional-btn
+{
+    margin: auto;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 175px;
+    cursor: pointer;
+    padding-top: .2rem;
+    font-size: 18px;
+    font-family: "Oswald", "Sans-serif";
+    border: 2px solid orangered;
+    color: orangered;
+    background-color: rgba(128, 128, 128, 0);
+    text-decoration: none;
+
+    transition: background-color .5s, color .5s;
+}
+
+.Promotional-btn:hover
+{
+    background-color: orangered;
+    color: white;
+}
+
+@media(max-width: 900px) {
+    /* For mobile phones: */
+    .Promotional-items
+    {
+        flex-direction: column;
+    }
+    .Promotional-description
+    {
+        padding-bottom: 2rem;
+        h1
+        {
+            font-size: 25px;
+        }
+        p
+        {
+            color: grey;
+            font-size: 18px;
+            font-weight: 300;
+            padding-top: .5rem;
+        }
+    }
+}

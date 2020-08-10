@@ -1,9 +1,11 @@
 import React from 'react';
+import {Link} from 'react-scroll';
 
 import Paragraph from "../Paragraph";
 import Review from "../Review";
 import Video from "../Video";
 import Delivery from "../Delivery";
+import Promotional from "../Promotional";
 
 
 
@@ -30,8 +32,9 @@ export default function Homepage() {
                         <h2>|</h2>
                         <h2><i className="fas fa-utensils about-icon"></i> Dine-In</h2>
                     </div>  
-
-                    <button className = "Landing-button">View Our Menu!</button>
+                    
+                    <Link className = "Landing-button" to ="About"
+                    spy={true} smooth={true} offset={-90}>See More</Link>
                 </div>            
             </div>
 
@@ -39,10 +42,9 @@ export default function Homepage() {
             <div className = "About">
                 <div className = "About-intro">
                     <Paragraph>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    Cabrera’s offers a diverse menu full of authentic Mexican options including local favorites and one of a kind dishes you can’t find anywhere else in the Southern Kentucky area.
+                    <br/>
+                    Our restaurant has a full bar including domestic and import beers on tap and the best margaritas in town. Make Cabrera’s your lunch spot for fast service or your weekend destination! 
                     </Paragraph>
                     <Video/>
                 </div>
@@ -53,7 +55,7 @@ export default function Homepage() {
             </div>
             
             <Delivery/>
-            
+            <Promotional/>
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import {Link} from 'react-scroll';
 
 //Images
 import logo from "../Images/c_1.png";
@@ -45,9 +46,14 @@ export default function Header() {
     return (
         <div className = {isOffScreen? "Header scroll": "Header"} ref = {header}>
             <nav className = "Header-nav">
-                <a href = "Home">Home <div className = "underline"/> </a>
-                <a href = "Menu">Menu <div className = "underline"/></a>
-                <a href = "Contact">Contact Us <div className = "underline"/></a>
+                <Link to ="Landing"
+                spy={true} smooth={true} offset={-90}>Home <div className = "underline"/></Link>
+
+                <Link to ="About"
+                spy={true} smooth={true} offset={-90}>About <div className = "underline"/></Link>
+
+                <Link to ="Reviews"
+                spy={true} smooth={true} offset={-90}>Reviews <div className = "underline"/></Link>
             </nav>
 
             <div className = {isOffScreen? "Header-image-container": "Header-image-container"}
@@ -56,9 +62,14 @@ export default function Header() {
             </div>
 
             <nav className = "Header-nav">
-                <a href = "Delivery">Delivery <div className = "underline"/></a>
-                <a href = "Reviews">Reviews <div className = "underline"/></a>
-                <a href = "About">About <div className = "underline"/></a>
+                <Link to ="Delivery"
+                spy={true} smooth={true} offset={-90}>Delivery<div className = "underline"/></Link>
+
+                <Link to ="Promotional"
+                spy={true} smooth={true} offset={-90}>Menu<div className = "underline"/></Link>
+
+                <Link to ="Footer"
+                spy={true} smooth={true} offset={0}>Contact Us<div className = "underline"/></Link>
             </nav>
 
             <button className = "Header-drop-down" onClick={toggleIsOpen}>
@@ -66,10 +77,22 @@ export default function Header() {
             </button>
 
             <div className = {getIsOpen()} ref={sideBar}>
-                <a href = "Delivery"><i className="fas fa-home"></i><div className = "underline"/></a>
-                <a href = "Reviews">Menu<div className = "underline"/></a>
-                <a href = "About">Contact<div className = "underline"/></a>
-                <a href = "Delivery">Delivery <div className = "underline"/></a>
+                <Link to ="Landing"
+                spy={true} smooth={true} offset={-90}><i className="fas fa-home"
+                onClick = {() => {setIsOpen(false)}}    
+                /> <div className = "underline"/></Link>
+
+                <Link to ="Reviews"
+                onClick = {() => {setIsOpen(false)}}    
+                spy={true} smooth={true} offset={-90}>Reviews <div className = "underline"/></Link>
+
+                <Link to ="Footer"
+                onClick = {() => {setIsOpen(false)}}    
+                spy={true} smooth={true} offset={0}>Contact<div className = "underline"/></Link>
+                
+                <Link to ="Delivery"
+                onClick = {() => {setIsOpen(false)}}    
+                spy={true} smooth={true} offset={-90}>Delivery<div className = "underline"/></Link>
             </div>
         </div>
     )
