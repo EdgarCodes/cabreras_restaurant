@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0932fcee921568f0552e6b032bfb25a1",
+    "revision": "6ec3a38de99402a28ee10937b37df5e3",
     "url": "/index.html"
   },
   {
-    "revision": "c6662bb87e891a456ae2",
-    "url": "/static/css/main.6327e1ab.chunk.css"
+    "revision": "822fe7f3c51705c9e4f6",
+    "url": "/static/css/main.0991b406.chunk.css"
   },
   {
-    "revision": "53175f640a06a3db1254",
-    "url": "/static/js/2.2f368f7b.chunk.js"
+    "revision": "1523d64197f1a51c0797",
+    "url": "/static/js/2.bb6741e6.chunk.js"
   },
   {
-    "revision": "0fb0e672f1308cb5b7677cdb93fc42ab",
-    "url": "/static/js/2.2f368f7b.chunk.js.LICENSE.txt"
+    "revision": "33ade7f87243ebea1c83e915f94afce3",
+    "url": "/static/js/2.bb6741e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6662bb87e891a456ae2",
-    "url": "/static/js/main.991d57a0.chunk.js"
+    "revision": "822fe7f3c51705c9e4f6",
+    "url": "/static/js/main.da18498b.chunk.js"
   },
   {
     "revision": "402e939724d4651a6a01",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/c_1.862bc592.png"
   },
   {
+    "revision": "7467c0e675057ee3f5f929564667c173",
+    "url": "/static/media/chips-and-salsa-cabreras.7467c0e6.jpg"
+  },
+  {
     "revision": "876a92c2d44ccd69ee33ca6df62084c8",
     "url": "/static/media/contact-background.876a92c2.jpg"
   },
@@ -58,6 +62,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c01e206df7d56767eae2ab38684b3514",
     "url": "/static/media/google-reviews-logo.c01e206d.png"
+  },
+  {
+    "revision": "5bdd925af5f35ff845fa9489788ad255",
+    "url": "/static/media/margarita-at-the-bar-cabreras.5bdd925a.jpg"
+  },
+  {
+    "revision": "474e2de60e8a50125c2a87e8f8f51012",
+    "url": "/static/media/nachos-cabreras.474e2de6.jpg"
   },
   {
     "revision": "baf0a7f8e6e6c30adfb8a46b425b968f",

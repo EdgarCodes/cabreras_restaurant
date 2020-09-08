@@ -1,31 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.6327e1ab.chunk.css",
-    "main.js": "/static/js/main.991d57a0.chunk.js",
-    "main.js.map": "/static/js/main.991d57a0.chunk.js.map",
+    "main.css": "/static/css/main.0991b406.chunk.css",
+    "main.js": "/static/js/main.da18498b.chunk.js",
+    "main.js.map": "/static/js/main.da18498b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.deeba89d.js",
     "runtime-main.js.map": "/static/js/runtime-main.deeba89d.js.map",
-    "static/js/2.2f368f7b.chunk.js": "/static/js/2.2f368f7b.chunk.js",
-    "static/js/2.2f368f7b.chunk.js.map": "/static/js/2.2f368f7b.chunk.js.map",
+    "static/js/2.bb6741e6.chunk.js": "/static/js/2.bb6741e6.chunk.js",
+    "static/js/2.bb6741e6.chunk.js.map": "/static/js/2.bb6741e6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.90d2c7d6c906b26cb516e6f335e4f08c.js": "/precache-manifest.90d2c7d6c906b26cb516e6f335e4f08c.js",
+    "precache-manifest.c7d375168f6859ab4e11d8cfd34d5a4b.js": "/precache-manifest.c7d375168f6859ab4e11d8cfd34d5a4b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6327e1ab.chunk.css.map": "/static/css/main.6327e1ab.chunk.css.map",
-    "static/js/2.2f368f7b.chunk.js.LICENSE.txt": "/static/js/2.2f368f7b.chunk.js.LICENSE.txt",
+    "static/css/main.0991b406.chunk.css.map": "/static/css/main.0991b406.chunk.css.map",
+    "static/js/2.bb6741e6.chunk.js.LICENSE.txt": "/static/js/2.bb6741e6.chunk.js.LICENSE.txt",
     "static/media/GrubHub_logo.png": "/static/media/GrubHub_logo.00ad9288.png",
     "static/media/Styles.css": "/static/media/video_background.fdce4897.jpg",
-    "static/media/authentic-taco-cabreras.jpg": "/static/media/authentic-taco-cabreras.6b3e1ca1.jpg",
     "static/media/burrito-cabreras.jpg": "/static/media/burrito-cabreras.1877d3a3.jpg",
     "static/media/c_1.png": "/static/media/c_1.862bc592.png",
+    "static/media/chips-and-salsa-cabreras.jpg": "/static/media/chips-and-salsa-cabreras.7467c0e6.jpg",
     "static/media/doordash_logo.jpg": "/static/media/doordash_logo.2cd0c7db.jpg",
     "static/media/enchilada-cabreras.jpg": "/static/media/enchilada-cabreras.e578ac82.jpg",
     "static/media/google-reviews-logo.png": "/static/media/google-reviews-logo.c01e206d.png",
+    "static/media/margarita-at-the-bar-cabreras.jpg": "/static/media/margarita-at-the-bar-cabreras.5bdd925a.jpg",
+    "static/media/nachos-cabreras.jpg": "/static/media/nachos-cabreras.474e2de6.jpg",
     "static/media/yelp_logo.png": "/static/media/yelp_logo.0653b58a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.deeba89d.js",
-    "static/js/2.2f368f7b.chunk.js",
-    "static/css/main.6327e1ab.chunk.css",
-    "static/js/main.991d57a0.chunk.js"
+    "static/js/2.bb6741e6.chunk.js",
+    "static/css/main.0991b406.chunk.css",
+    "static/js/main.da18498b.chunk.js"
   ]
 }
